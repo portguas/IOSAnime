@@ -67,21 +67,15 @@
 //    [UIView animateWithDuration:10 animations:^{
 //        self.maskLayer.frame = CGRectMake(0, 0, 250, 20);
 //    }];
-//    
-    [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:3];
-
-    self.maskLayer.frame = CGRectMake(0, 0, 250, 20);
-    [UIView commitAnimations];
+//
     
-    
-//    [CATransaction begin];
-//    [CATransaction setDisableActions:NO];  // 不能关闭隐式动画 因为关闭后就会瞬间完成
-//    [CATransaction setAnimationTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
-//    [CATransaction setAnimationDuration:3];   // 如果设置为默认的0.25秒会发现很快完成动画,但是也不是瞬间完成,会比瞬间要平滑点
-//    self.maskLayer.frame = self.viewbg.bounds;  // 通过直接改变图层属性来实现动画 隐式动画
-//                                                // Core Animation通常对CALayer的所有属性（可动画的属性）做动画包括frame, 但是显示动画无法对frame做动画 记住！
-//    [CATransaction commit];
+    [CATransaction begin];
+    [CATransaction setDisableActions:NO];  // 不能关闭隐式动画 因为关闭后就会瞬间完成
+    [CATransaction setAnimationTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
+    [CATransaction setAnimationDuration:3];   // 如果设置为默认的0.25秒会发现很快完成动画,但是也不是瞬间完成,会比瞬间要平滑点
+    self.maskLayer.frame = self.viewbg.bounds;  // 通过直接改变图层属性来实现动画 隐式动画
+                                                // Core Animation通常对CALayer的所有属性（可动画的属性）做动画包括frame, 但是显示动画无法对frame做动画 记住！
+    [CATransaction commit];
 }
 
 - (void)didReceiveMemoryWarning {
