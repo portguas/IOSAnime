@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CustomProgressBar.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>IOSAnime.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>ImplictAnime.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -23,6 +33,36 @@
 			<true/>
 		</dict>
 		<key>329C86031ED4229100241708</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>329C86231ED7C37D00241708</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>329C863B1ED7C37E00241708</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>329C86461ED7C37E00241708</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>329C865A1ED817FA00241708</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>329C86721ED817FB00241708</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>329C867D1ED817FB00241708</key>
 		<dict>
 			<key>primary</key>
 			<true/>
