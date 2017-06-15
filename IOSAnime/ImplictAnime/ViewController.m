@@ -32,6 +32,8 @@
     [self.button addGestureRecognizer:reg];
 }
 
+- (IBAction)tragger:(UIButton *)sender {
+}
 
 - (void)tap:(UITapGestureRecognizer *)reg  {
     CGFloat red = arc4random() / (CGFloat)INT_MAX;

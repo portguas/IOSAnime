@@ -57,6 +57,8 @@
 
     
 }
+- (IBAction)tr:(UIButton *)sender {
+}
 - (IBAction)ab:(id)sender {
 }
 - (IBAction)changeColor:(id)sender {
