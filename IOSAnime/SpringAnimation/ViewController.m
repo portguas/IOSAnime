@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TestCusView.h"
 
 @interface ViewController (){
     CADisplayLink *displayLink;
@@ -25,6 +26,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(display:)];
     [displayLink addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
+    
+    TestCusView *view = [[TestCusView alloc] initWithTest];
+    [self.view addSubview:view];
 }
 
 
