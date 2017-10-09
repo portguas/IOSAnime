@@ -19,9 +19,39 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>QQPaoPaoAnimation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>SlideMenu.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SpringAnimation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>321531791EEFC24F0093C3C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3215319B1EF120050093C3C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>321531B91EF266A70093C3C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>329C85DF1ED4229100241708</key>
 		<dict>
 			<key>primary</key>

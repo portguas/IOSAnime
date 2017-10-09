@@ -23,11 +23,16 @@
     self = [super init];
     if (self) {
         self.backgroundColor = [UIColor redColor];
-        self.frame = CGRectMake(10, 10, 100, 100);
+        self.frame = CGRectMake(100, 10, 100, 100);
     }
     
     return self;
     
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    NSLog(@"view -- layoutSubviews");
 }
 
 @end

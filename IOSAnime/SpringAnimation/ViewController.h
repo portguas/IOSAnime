@@ -10,5 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UIView *viewGreen;
+@property (weak, nonatomic) IBOutlet UIView *testView;
+
 @end
 

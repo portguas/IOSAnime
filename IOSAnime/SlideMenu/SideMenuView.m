@@ -177,7 +177,7 @@
 - (void)animateButtons {
     for (NSInteger i = 0 ; i < self.subviews.count; i++) {
         UIView *menuBtn = self.subviews[i];
-        // 先把所以的menu菜单移出去
+        // 先把所有的menu菜单移出去 因为在上面移动self的时候移动出来了，然后延迟0.3的动画移动回来
         menuBtn.transform = CGAffineTransformMakeTranslation(-90, 0);
         // 然后动画移动回来
         [UIView animateWithDuration:0.7f delay:i*(0.3/self.subviews.count) usingSpringWithDamping:0.6f initialSpringVelocity:0.0f options:UIViewAnimationOptionBeginFromCurrentState | UIViewAnimationOptionAllowUserInteraction animations:^(){
